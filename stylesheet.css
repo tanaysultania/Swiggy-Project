@@ -1,0 +1,177 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   font-family: 'Roboto', sans-serif;
+  }
+.container{
+   display: flex;
+   height: 75vh;
+}
+#sec1{
+   width: 55%;
+   height: 75vh;
+   padding-left: 155px;
+}
+#sec2{
+   width: 45%;
+   height: 75vh;
+}
+#logo{
+   width: 180px;
+   height: 100px;
+}
+ul{
+   float: right;
+}
+li{
+   list-style: none;
+   display: inline-block;
+   padding-top: 25px;
+   padding-right: 100px;
+}
+ 
+#heading{
+   font-size: 2.5rem;
+   font-family: 'Roboto', sans-serif;
+   padding-top: 70px;
+}
+#orderfood{
+   font-size: 1.5rem;
+   color: #686B78;
+   font-family: 'Roboto', sans-serif;
+}
+#searchbar{
+   width: 30rem;
+   height: 3.5rem;
+   font-size: 1.1rem;
+   font-weight: 600;
+   padding-left: 10px;
+}
+#findfood{
+   background-color: #FC8019;
+   display: inline-block;
+   height: 3.5rem;
+   vertical-align: middle;
+   line-height: 3.5rem;
+   padding: 0.03rem 0.9rem;
+}
+.cities{
+   font-size: 0.9rem;
+   color: #686B78;
+   font-family: 'Roboto', sans-serif;
+}
+#chicken{
+   width: 100%;
+   height: 100%;
+ 
+}
+#login,#signup,#findfood{
+   font-family: 'Roboto', sans-serif;
+   text-decoration: none;
+}
+#login{
+   color: black;
+}
+#signup{
+   color: white;
+   background-color: black;
+   display: inline-block;
+   height: 3rem;
+   vertical-align: middle;
+   line-height: 3rem;
+   padding: 0.03rem 0.9rem;
+}
+#sec3{
+   display: flex;
+   background-color: #2B1E16;
+   justify-content: space-evenly;
+   height: 300px;
+   width: 100%;
+   align-items: center;
+}
+#img1,#img2,#img3{
+   object-fit: cover;
+   height: 200px;
+   position: relative;
+   bottom: 50px;
+}
+.items{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 300px;
+   width: 100%;
+   overflow: hidden;
+}
+.item{
+   font-weight: bold;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.17em;
+}
+.text{
+  color: #E0CBC1;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 35px;
+}
+#restaurantsinpocket{
+  padding-top: 130px;
+  padding-left: 140px;
+}
+#text2{
+  padding-left: 140px;
+  padding-top: 50px
+}
+#playstore,#appstore{
+  height: 11%;
+  width: 200px;
+  padding-top: 60px
+}
+#playstore{
+  padding-left: 140px;
+}
+#sec5{
+  float: left;
+  width: 45%;
+}
+#sec6{
+  float: right;
+  width: 55%;
+}
+#phone1,#phone2{
+  width: 50%;
+}
+#phone1{
+  float: left;
+  margin-top: 10px;
+}
+#phone2{
+  float: right;
+}
+ 
+footer{
+   background-color: #000000;
+   height: 400px;
+   clear: both;
+   display: flex;
+   justify-content: flex-start;
+}
+ 
+.hyperlinks{
+   line-height: 30px;
+   color: white;
+   margin-top: 10px;
+}
+.footerheading{
+   color: #808080;
+   margin-top: 20px;
+}
+#companyDiv{
+   margin-left: 125px;
+}
+#contactDiv{
+   margin-left: 200px;
+}
+#legalDiv{
+   margin-left: 200px;
+}
